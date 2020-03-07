@@ -1,0 +1,15 @@
+1.
+predicted: 'tesla', 'mercedes'
+actual: 'tesla', 'mercedes'
+2.
+predicted: undefined, 'elon'
+actual: <empty string>, 'elon'
+3.
+predicted: '12345', undefined
+actual: '12345', undefined
+4.
+predicted: false, true
+actual: false, true
+5.
+predicted: 'value', [1, 5, 1, 8, 3, 3], 1, 5
+actual: 'value', [1, 5, 1, 8, 3, 3], 1, 5
