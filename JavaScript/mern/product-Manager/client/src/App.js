@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
-import CreateProduct from './views/CreateProduct';
+import Main from './views/Main';
+import ProductPage from './views/ProductPage';
+import {Router} from '@reach/router';
+import Update from './views/Update';
 
 function App() {
   return (
     <div className="App">
-      <CreateProduct />
+      <Router>
+        <Main path="/"/>
+        <ProductPage path="/:id"/>
+        <Update path="/:id/edit"/>
+      </Router>
     </div>
   );
 }
